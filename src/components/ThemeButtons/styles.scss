@@ -1,0 +1,111 @@
+.theme-buttons-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.theme-buttons {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 5px;
+}
+
+$colors: (
+	original: #ff9500,
+	blue: rgb(44, 44, 122),
+	red: rgb(165, 25, 25),
+	green: green
+);
+
+@each $button, $color in $colors {
+	.#{$button} {
+		--color: #{$color};
+		--hover: #{adjust-hue($color, 10deg)};
+	}
+}
+
+.original {
+	box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+
+	&:hover,
+	&:focus {
+		box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+	}
+}
+
+.original {
+	color: var(--color);
+	transition: 0.25s;
+
+	&:hover,
+	&:focus {
+		border-color: var(--hover);
+		color: #fff;
+	}
+}
+
+.blue {
+	box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+
+	&:hover,
+	&:focus {
+		box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+	}
+}
+
+.blue {
+	color: var(--color);
+	transition: 0.25s;
+
+	&:hover,
+	&:focus {
+		border-color: var(--hover);
+		color: #fff;
+	}
+}
+
+.red {
+	box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+
+	&:hover,
+	&:focus {
+		box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+	}
+}
+
+.red {
+	color: var(--color);
+	transition: 0.25s;
+
+	&:hover,
+	&:focus {
+		border-color: var(--hover);
+		color: #fff;
+	}
+}
+
+.green {
+	box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+
+	&:hover,
+	&:focus {
+		box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+	}
+}
+
+.green {
+	color: var(--color);
+	transition: 0.25s;
+
+	&:hover,
+	&:focus {
+		border-color: var(--hover);
+		color: #fff;
+	}
+}
+
+h1 {
+	font-weight: 400;
+}
