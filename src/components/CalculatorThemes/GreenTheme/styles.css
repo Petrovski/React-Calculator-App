@@ -53,27 +53,19 @@ button:active {
 	border-radius: 5px;
 }
 
-.calculator-display {
+.calculator-display-green {
 	color: white;
-	background: #2d2e31;
+	background: rgb(57, 69, 60);
 	line-height: 130px;
 	font-size: 6em;
 	flex: 1;
 }
 
-.calculator-display-small {
+.calculator-display-green-small {
 	color: white;
-	background: #2d2e31;
+	background: rgb(57, 69, 60);
 	line-height: 130px;
 	font-size: 3em;
-	flex: 1;
-}
-
-.calculator-display-smallest {
-	color: white;
-	background: #2d2e31;
-	line-height: 130px;
-	font-size: 2em;
 	flex: 1;
 }
 
@@ -95,32 +87,34 @@ button:active {
 	width: 240px;
 }
 
-.calculator .function-keys {
-	background: #848485;
+.calculator .function-keys-green {
 	display: flex;
+	font-size: 2rem;
 }
 
-.calculator .number-keys {
-	background: #b2b2b5;
+.calculator .number-keys-green {
+	background: #364a39;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap-reverse;
+	color: white;
 }
 
-.digits {
-	font-size: 2rem;
-	color: black;
-}
-
-.functions {
-	font-size: 2rem;
-	color: black;
-}
-
-.operators {
+.digits-green {
 	font-size: 2rem;
 	color: white;
-	background: rgb(165, 25, 25);
+}
+
+.functions-green {
+	font-size: 2rem;
+	color: black;
+	background: #d3e9d5;
+}
+
+.operators-green {
+	font-size: 2rem;
+	color: white;
+	background: #279037;
 }
 
 .scaling-text {
@@ -131,7 +125,7 @@ button:active {
 	transform-origin: right;
 }
 
-#key-0 {
+.key-0 {
 	width: 160px;
 	text-align: left;
 	padding-left: 32px;

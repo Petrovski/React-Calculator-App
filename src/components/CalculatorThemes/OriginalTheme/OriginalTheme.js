@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import ThemeButtons from './components/ThemeButtons/ThemeButtons';
-import './App.css';
+import ThemeButtons from '../../ThemeButtons/ThemeButtons';
+import './styles.css';
 
-class MainCalculator extends Component {
+class OriginalTheme extends Component {
 	state = {
 		displayValue: '0',
 		operandClick: false,
@@ -171,99 +171,99 @@ class MainCalculator extends Component {
 						<div
 							className={
 								displayValue >= 9999999
-									? 'calculator-display-small'
-									: 'calculator-display'
+									? 'calculator-display-original-small'
+									: 'calculator-display-original'
 							}
 						>
 							<span className="scaling-text">{displayValue}</span>
 						</div>
 						<div className="calculator-keys">
 							<div className="input-keys">
-								<div className="function-keys">
+								<div className="function-keys-original">
 									<button
-										className="calculator-key functions"
+										className="calculator-key functions-original"
 										onClick={() => this.clearDisplay()}
 									>
 										AC
 									</button>
 									<button
-										className="calculator-key functions"
+										className="calculator-key functions-original"
 										onClick={() => this.togglePositiveNegative()}
 									>
 										±
 									</button>
 									<button
-										className="calculator-key functions"
+										className="calculator-key functions-original"
 										onClick={() => this.calculatePercentage()}
 									>
 										%
 									</button>
 								</div>
-								<div className="number-keys">
+								<div className="number-keys-original">
 									<button
 										id="key-0"
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										onClick={() => this.inputDigit(0)}
 									>
 										0
 									</button>
 									<button
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										id="dot-key"
 										onClick={() => this.inputDecimal()}
 									>
 										●
 									</button>
 									<button
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										onClick={() => this.inputDigit(1)}
 									>
 										1
 									</button>
 									<button
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										onClick={() => this.inputDigit(2)}
 									>
 										2
 									</button>
 									<button
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										onClick={() => this.inputDigit(3)}
 									>
 										3
 									</button>
 									<button
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										onClick={() => this.inputDigit(4)}
 									>
 										4
 									</button>
 									<button
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										onClick={() => this.inputDigit(5)}
 									>
 										5
 									</button>
 									<button
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										onClick={() => this.inputDigit(6)}
 									>
 										6
 									</button>
 									<button
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										onClick={() => this.inputDigit(7)}
 									>
 										7
 									</button>
 									<button
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										onClick={() => this.inputDigit(8)}
 									>
 										8
 									</button>
 									<button
-										className="calculator-key digits"
+										className="calculator-key digits-original"
 										onClick={() => this.inputDigit(9)}
 									>
 										9
@@ -272,31 +272,31 @@ class MainCalculator extends Component {
 							</div>
 							<div className="operator-keys">
 								<button
-									className="calculator-key operators"
+									className="calculator-key operators-original"
 									onClick={() => this.doMath('/')}
 								>
 									÷
 								</button>
 								<button
-									className="calculator-key operators"
+									className="calculator-key operators-original"
 									onClick={() => this.doMath('*')}
 								>
 									×
 								</button>
 								<button
-									className="calculator-key operators"
+									className="calculator-key operators-original"
 									onClick={() => this.doMath('-')}
 								>
 									-
 								</button>
 								<button
-									className="calculator-key operators"
+									className="calculator-key operators-original"
 									onClick={() => this.doMath('+')}
 								>
 									+
 								</button>
 								<button
-									className="calculator-key operators"
+									className="calculator-key operators-original"
 									onClick={() => this.doMath('=')}
 								>
 									=
@@ -310,4 +310,4 @@ class MainCalculator extends Component {
 	}
 }
 
-export default MainCalculator;
+export default OriginalTheme;
