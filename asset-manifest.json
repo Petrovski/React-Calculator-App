@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Calculator-App/static/css/main.5a289802.chunk.css",
+    "main.js": "/React-Calculator-App/static/js/main.a569c233.chunk.js",
+    "main.js.map": "/React-Calculator-App/static/js/main.a569c233.chunk.js.map",
+    "runtime~main.js": "/React-Calculator-App/static/js/runtime~main.98711bb7.js",
+    "runtime~main.js.map": "/React-Calculator-App/static/js/runtime~main.98711bb7.js.map",
+    "static/js/2.70dee73b.chunk.js": "/React-Calculator-App/static/js/2.70dee73b.chunk.js",
+    "static/js/2.70dee73b.chunk.js.map": "/React-Calculator-App/static/js/2.70dee73b.chunk.js.map",
+    "index.html": "/React-Calculator-App/index.html",
+    "precache-manifest.0cf41d8b89d123545cdfd07f57513543.js": "/React-Calculator-App/precache-manifest.0cf41d8b89d123545cdfd07f57513543.js",
+    "service-worker.js": "/React-Calculator-App/service-worker.js",
+    "static/css/main.5a289802.chunk.css.map": "/React-Calculator-App/static/css/main.5a289802.chunk.css.map"
+  }
+}
