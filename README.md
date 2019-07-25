@@ -6,7 +6,8 @@ Hi! Welcome to my repository for my calculator project that I made using **React
 _So I have attached images below showing them_
 
 
-![iOS Theme](https://imgur.com/a/QLTXXli)
+[Themes](https://imgur.com/a/8ulfTte#AXm4XT5)
+
 
 
 [Deployed Calculator Application](https://serene-heyrovsky-1f2e8b.netlify.com/)
