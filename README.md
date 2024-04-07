@@ -1,6 +1,6 @@
 # React Calculator Application
 
-Hi! Welcome to my repository for my calculator project that I made using **React.js**. This purpose of this project was to replicate the look and feel of the iOS calculator app in portrait mode, and have it fully functional as well. I also added some fun theme buttons to change the color scheme of the calculator, I hope you like one of the themes! You can view the deployed project on the link below.
+Hi! Welcome to my repository for my calculator project that I made using **React.js**. The purpose of this project was to replicate the look and feel of the iOS calculator app in portrait mode, and have it fully functional as well. I also added some fun theme buttons to change the color scheme of the calculator, I hope you like one of the themes! You can view the deployed project on the link below.
 
 ### NOTE: The theming buttons aren't working properly on the deployed version
 _So I have attached images below showing them_
